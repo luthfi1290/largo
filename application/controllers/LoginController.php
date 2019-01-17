@@ -2,11 +2,11 @@
 
 class LoginController extends CI_Controller {
 
-	// public function __construct()
-	// {
-	// 	parent::__construct();
-	// 	$this->load->model('users_model');
-	// }
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('users_model');
+	}
 
 	public function index()
 	{
@@ -15,7 +15,7 @@ class LoginController extends CI_Controller {
 
 	public function login()
 	{
-		$this->load->model('users_model');
+		// $this->load->model('users_model');
 
 		$email = $this->input->post('email');
 		$password = $this->input->post('password');
