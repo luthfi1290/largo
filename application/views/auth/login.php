@@ -31,7 +31,7 @@
         </div>
 
         <div class="content">
-            <form class="login-form" action="index.html" method="post">
+            <form class="login-form" action="<?php echo base_url('login') ?>" method="post">
                 <div class="form-title text-center">
                     <span class="form-title">Sistem Informasi Barang</span><br>
                     <span class="form-subtitle">LARGO</span>
@@ -41,8 +41,8 @@
                     <span> Nama user dan password tidak boleh kosong </span>
                 </div>
                 <div class="form-group">
-                    <label class="control-label visible-ie8 visible-ie9">Nama user</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Nama user" name="username" /> </div>
+                    <label class="control-label visible-ie8 visible-ie9">Email user</label>
+                    <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Email user" name="email" /> </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">Password</label>
                     <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" /> </div>
